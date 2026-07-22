@@ -1,4 +1,1 @@
-timestamp,name,dealer,ble_ids,software_version,julian,mode,hp_delta_psi,hp_grade,duplicate_name,duplicate_cap
-2026-07-17T20:40:58.396Z,elle hyry,cse,qhiZNYfC2abL0l+5mR7tNw==,,,Mode 1 (2.0 PSI),0.000,fail,,
-2026-07-21T20:08:18.993Z,testing tester,cse,iqXwsY5QtIBSd2I+9PmVQA==,v3.2,26188,Mode 2 (2.5 PSI),0.000,fail,,
-2026-07-22T13:38:07.879Z,ELLE IS TESTING,cse,1zJebo7aqtPNu7YpEPV9eQ==,v3.2,26188,Mode 4 (3.5 PSI),0.000,fail,,
+
