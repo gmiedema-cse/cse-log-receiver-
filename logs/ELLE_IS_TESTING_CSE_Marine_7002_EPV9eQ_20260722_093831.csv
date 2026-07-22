@@ -1,0 +1,40 @@
+CSE Marine Diagnostic Report
+Customer: ELLE IS TESTING
+Dealer: cse
+Expected Mode: Mode 4
+Submitted: 7/22/2026, 9:38:31 AM
+Cap: CSE_Marine_7002
+
+=== EEPROM ACTIVITY LOG ===
+Firmware Version 3.2   Build 2026-07-07   Tag NS   ShipMode 4
+LogIndex,TargPress,DHPressure,AHPressure,DLPressure,ALPressure,BattVoltage,AirToAdd,HeadMaxPress,RefVoltage,PumpRunCount,ChrgeCycCount,PumpInhFlag,ActLenDayKnt
+
+=== CAP STATUS SNAPSHOT (a) ===
+Field,Value,Raw
+Battery,3.30 V,10
+Charge,12%,
+Panel,0.82 V,
+Pressure,0.000 PSI,10
+Time,00:00:00,
+Mode,Mode 4 (target 3.3 PSI),4
+Day High,0.000 PSI,
+Day Low,0.000 PSI,
+Pump Fail Count,0,
+BLE Time Left,0m 00s,
+Solar Charging,n/a,
+
+=== HEAD PRESSURE TEST ===
+Field,Value
+Before (baseline),0.000 PSI (raw 10)
+After (pumping),0.000 PSI (raw 10)
+Head Pressure (delta),0.000 PSI
+
+=== FAILURE MODE ANALYSIS ===
+Field,Result,Detail
+Pumping,FAIL,Zero head pressure detected (0.000 PSI delta)
+Pump Battery Fault,FAIL,3.30 V (12% est.)
+Same Mode,PASS,All caps match
+Correct Mode,PASS,Reads Mode 4; expected Mode 4
+Triage Category,other,
+Inconclusive,false,
+Inconclusive Reasons,Charging status unavailable; No activity log days to evaluate pump run time; No activity log available for Battery Log Fault check; Not enough data to check pressure target vs. mode; Live chamber pressure unavailable,
