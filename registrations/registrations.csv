@@ -1,4 +1,4 @@
-
+Timestamp, Name, Dealer, BLE IDs, Software Version, Julian, Mode, Head Pressure Delta, Head Pressure Test, Duplicate Name, Duplicate Cap, Email
 2026-07-23T17:28:11.038Z,Elle Hyry,CSE,,v3.2,26188,,0.000,fail,,,hyryeliz@msu.edu
 2026-07-23T17:40:16.976Z,elle,cse,CSE_Marine_7002,v3.2,26188,,0.000,fail,,,hyryeliz@msu.edu
 2026-07-23T19:11:52.301Z,Greg Miedema,Coral Gables,CSE_Marine_6FE6,v3.2,26188,,0.315,pass,,,GMIEDEMA@CSE-PD.COM
