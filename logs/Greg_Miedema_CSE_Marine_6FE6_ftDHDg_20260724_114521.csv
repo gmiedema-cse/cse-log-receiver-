@@ -1,0 +1,53 @@
+CSE Marine Diagnostic Report
+Customer: Greg Miedema
+Dealer: Coral Gables
+Expected Mode: Mode 4
+Submitted: 7/24/2026, 11:45:21 AM
+Cap: CSE_Marine_6FE6
+
+=== EEPROM ACTIVITY LOG ===
+Firmware Version 3.2   Build 2026-07-07   Tag NS   ShipMode 4
+LogIndex,TargPress,DHPressure,AHPressure,DLPressure,ALPressure,BattVoltage,AirToAdd,HeadMaxPress,RefVoltage,PumpRunCount,ChrgeCycCount,PumpInhFlag,ActLenDayKnt
+00000,003.282,002.203,002.203,000.764,000.764,003.875,000.809,001.439,000.000,00001,00000,00000,08640
+00001,003.282,001.888,002.158,001.079,000.809,003.797,000.000,001.349,000.000,00016,00000,00000,02949
+00002,003.282,002.698,002.248,001.394,000.899,003.797,000.270,000.000,000.000,00000,00000,00000,05906
+00003,003.282,001.933,002.203,001.664,000.989,003.759,000.809,001.169,000.000,00005,00000,00000,06238
+00004,003.282,002.967,002.293,001.708,001.079,003.836,000.135,001.169,000.000,00018,00067,00000,11042
+00005,003.282,003.012,002.383,001.169,001.079,003.759,000.135,001.079,000.000,00011,00000,00000,06238
+00006,003.282,003.462,002.518,001.259,001.124,003.797,000.000,001.214,000.000,00019,00046,00000,06247
+00007,003.282,003.642,002.653,001.843,001.214,003.836,000.000,000.000,000.000,00000,00052,00000,11033
+00008,003.282,001.933,002.563,001.753,001.304,003.836,000.540,000.000,000.000,00000,00000,00000,05162
+00009,003.282,003.552,002.698,001.753,001.349,003.759,000.000,001.079,000.000,00018,00000,00000,07590
+
+=== CAP STATUS SNAPSHOT (a) ===
+Field,Value,Raw
+Battery,3.78 V,67
+Charge,72%,
+Panel,1.14 V,
+Pressure,2.548 PSI,67
+Time,07:10:20,
+Mode,Mode 4 (target 3.3 PSI),4
+Day High,3.552 PSI,
+Day Low,0.000 PSI,
+Pump Fail Count,0,
+BLE Time Left,0m 00s,
+Solar Charging,n/a,
+
+=== HEAD PRESSURE TEST ===
+Field,Value
+Before (baseline),2.548 PSI (raw 67)
+After (pumping),2.908 PSI (raw 75)
+Head Pressure (delta),0.360 PSI
+
+=== FAILURE MODE ANALYSIS ===
+Field,Result,Detail
+Pumping,PASS,0.360 PSI delta
+Pump Battery Fault,PASS,3.78 V (72% est.)
+Pump Run Time,PASS,4.4 min/day avg over 10 day(s)
+Battery Log Fault,PASS,0 low-battery inhibit event(s) in log
+Pressure Target (A2A -> Pump),PASS,3.28 PSI logged vs 3.30 PSI expected
+Same Mode,PASS,All caps match
+Correct Mode,PASS,Reads Mode 4; expected Mode 4
+Triage Category,none - all checks passed,
+Inconclusive,false,
+Inconclusive Reasons,Charging status unavailable; No other cap passed every other check yet; so there is nothing healthy to compare chamber pressure against,
