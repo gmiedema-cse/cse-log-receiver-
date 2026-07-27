@@ -4,3 +4,6 @@ Timestamp, Name, Dealer, BLE IDs, Software Version, Julian, Mode, Head Pressure 
 2026-07-23T19:11:52.301Z,Greg Miedema,Coral Gables,CSE_Marine_6FE6,v3.2,26188,,0.315,pass,,,GMIEDEMA@CSE-PD.COM
 2026-07-23T19:12:33.340Z,Greg Miedema,Coral Gables,CSE_Marine_6FE6,v3.2,26188,,0.315,pass,YES,YES,GMIEDEMA@CSE-PD.COM
 2026-07-24T20:08:39.761Z,Steve Lewis,Online,CSE_Marine_1042,v3.2,26188,,0.584,pass,,,slewis01@charter.net
+2026-07-27T13:31:57.603Z,Greg Miedema,CSE Testing,CSE_Marine_38DA,v3.2,26188,,0.629,pass,YES,,GMIEDEMA@CSE-PD.COM
+2026-07-27T13:31:57.603Z,Greg Miedema,CSE Testing,CSE_Marine_90BC,v3.2,26188,,0.405,pass,YES,,GMIEDEMA@CSE-PD.COM
+2026-07-27T13:31:57.603Z,Greg Miedema,CSE Testing,CSE_Marine_C1BB,v3.2,26188,,0.000,fail,YES,,GMIEDEMA@CSE-PD.COM
