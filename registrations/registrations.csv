@@ -31,3 +31,4 @@ Timestamp, Name, Dealer, BLE IDs, Software Version, Julian, Mode, Head Pressure 
 2026-07-31T15:45:22.132Z,Greg Miedema,CSE Testing,CSE_Marine_8187,v3.2,26188,Mode 4 (3.5 PSI),0.225,warn,YES,YES,gmiedema@cse-pd.com
 2026-07-31T16:00:47.825Z,Greg Miedema,CSE Test,CSE_Marine_8187,v3.2,26188,Mode 4 (3.5 PSI),0.225,warn,YES,YES,gmiedema@cse-pd.com
 2026-07-31T16:01:01.086Z,Greg Miedema,CSE Testing,CSE_Marine_8187,v3.2,26188,Mode 4 (3.5 PSI),0.225,warn,YES,YES,gmiedema@cse-pd.com
+2026-07-31T17:03:22.605Z,Greg Miedema,"Coral Gables Yachts, LLC",CSE_Marine_8187,v3.2,26188,Mode 4 (3.5 PSI),0.180,warn,YES,YES,GMIEDEMA@CSE-PD.COM
