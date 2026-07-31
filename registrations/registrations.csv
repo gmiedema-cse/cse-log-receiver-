@@ -24,3 +24,4 @@ Timestamp, Name, Dealer, BLE IDs, Software Version, Julian, Mode, Head Pressure 
 2026-07-31T14:00:30.897Z,Rob Everse,West MI Yacht Sales,CSE_Marine_2ED0,v3.2,26188,Mode 3 (3.0 PSI),0.705,pass,YES,YES,
 2026-07-31T14:00:30.897Z,Rob Everse,West MI Yacht Sales,CSE_Marine_630B,v3.2,26188,Mode 3 (3.0 PSI),0.615,pass,YES,YES,
 2026-07-31T14:00:30.897Z,Rob Everse,West MI Yacht Sales,CSE_Marine_0813,v3.2,26188,Mode 3 (3.0 PSI),0.705,pass,YES,YES,
+2026-07-31T14:16:06.337Z,Elizabeth Pirrone,Coral Gables Yachts,CSE_Marine_6554,v3.2,26188,,0.000,fail,,,lizpirrone5@gmail.com
