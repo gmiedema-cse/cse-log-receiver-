@@ -27,3 +27,4 @@ Timestamp, Name, Dealer, BLE IDs, Software Version, Julian, Mode, Head Pressure 
 2026-07-31T14:16:06.337Z,Elizabeth Pirrone,Coral Gables Yachts,CSE_Marine_6554,v3.2,26188,,0.000,fail,,,lizpirrone5@gmail.com
 2026-07-31T15:04:48.330Z,Derek Wolff,"Coral Gables Yachts, LLC",CSE_Marine_6FE6,v3.2,26188,Mode 4 (3.5 PSI),,,,YES,GMIEDEMA@CSE-PD.COM
 2026-07-31T15:04:52.085Z,Derek Wolff,"Coral Gables Yachts, LLC",CSE_Marine_6FE6,v3.2,26188,Mode 4 (3.5 PSI),,,YES,YES,GMIEDEMA@CSE-PD.COM
+2026-07-31T15:10:58.916Z,Greg Miedema,CSE Testing,CSE_Marine_8187,v3.2,26188,Mode 4 (3.5 PSI),0.225,warn,YES,,hyryeliz@msu.edu
