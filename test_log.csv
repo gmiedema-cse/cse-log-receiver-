@@ -1,1 +1,2 @@
 Time,Board Name,Result,Reason,Battery V,Panel Tested,Panel V,Pressure Sensor V,Pressure PSI,Mode,FW Version,Expected Version,FW Julian,Expected Julian
+2026-07-31T20:15:47.208Z,CSE_Marine_7002,PASS,,3.70,Y,0.90,0.19,0.00,2,3.2,3.2,26188,26188
