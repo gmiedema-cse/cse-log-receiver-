@@ -1,0 +1,40 @@
+CSE Marine Diagnostic Report
+Customer: Elizabeth Pirrone
+Dealer: Coral Gables Yachts
+Expected Mode: Mode 4
+Submitted: 7/31/2026, 12:31:38 PM
+Cap: CSE_Marine_6554
+
+=== EEPROM ACTIVITY LOG ===
+Firmware Version 3.2   Build 2026-07-07   Tag NS   ShipMode 4
+LogIndex,TargPress,DHPressure,AHPressure,DLPressure,ALPressure,BattVoltage,AirToAdd,HeadMaxPress,RefVoltage,PumpRunCount,ChrgeCycCount,PumpInhFlag,ActLenDayKnt
+
+=== CAP STATUS SNAPSHOT (a) ===
+Field,Value,Raw
+Battery,3.74 V,28
+Charge,67%,
+Panel,1.66 V,
+Pressure,0.795 PSI,28
+Time,00:07:30,
+Mode,Mode 4 (target 3.3 PSI),4
+Day High,0.809 PSI,
+Day Low,0.000 PSI,
+Pump Fail Count,0,
+BLE Time Left,0m 00s,
+Solar Charging,n/a,
+
+=== HEAD PRESSURE TEST ===
+Field,Value
+Before (baseline),0.795 PSI (raw 28)
+After (pumping),1.469 PSI (raw 43)
+Head Pressure (delta),0.674 PSI
+
+=== FAILURE MODE ANALYSIS ===
+Field,Result,Detail
+Pumping,PASS,0.674 PSI delta
+Pump Battery Fault,PASS,3.74 V (67% est.)
+Same Mode,PASS,All caps match
+Correct Mode,PASS,Reads Mode 4; expected Mode 4
+Triage Category,none - all checks passed,
+Inconclusive,true,
+Inconclusive Reasons,Charging status unavailable; No activity log days to evaluate pump run time; No activity log available for Battery Log Fault check; Not enough data to check pressure target vs. mode,
