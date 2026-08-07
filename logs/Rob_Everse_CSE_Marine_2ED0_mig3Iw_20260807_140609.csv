@@ -1,0 +1,50 @@
+CSE Marine Diagnostic Report
+Customer: Rob Everse
+Dealer: West MI Yacht Sales
+Expected Mode: Mode 3
+Submitted: 8/7/2026, 2:06:09 PM
+Cap: CSE_Marine_2ED0
+
+=== EEPROM ACTIVITY LOG ===
+Firmware Version 3.2   Build 2026-07-07   Tag NS   ShipMode 3
+LogIndex,TargPress,DHPressure,AHPressure,DLPressure,ALPressure,BattVoltage,AirToAdd,HeadMaxPress,RefVoltage,PumpRunCount,ChrgeCycCount,PumpInhFlag,ActLenDayKnt
+00000,003.012,001.349,001.349,000.495,000.495,003.565,001.214,001.259,001.469,00182,00038,00001,08640
+00001,003.012,001.349,001.349,001.304,000.584,003.565,000.000,000.000,001.469,00000,00000,00000,00001
+00002,003.012,001.753,001.394,000.540,000.584,003.565,001.169,000.270,000.000,00036,00097,00001,08639
+00003,003.012,001.304,001.394,000.719,000.584,003.604,001.169,000.360,000.000,00027,00085,00001,06546
+00004,003.012,001.484,001.394,000.719,000.584,003.604,001.169,000.180,000.361,00028,00120,00001,06567
+00005,003.012,001.259,001.394,000.719,000.584,003.526,001.169,000.315,000.000,00068,00066,00001,10713
+00006,003.012,001.529,001.394,000.674,000.584,003.604,001.169,000.180,000.077,00006,00107,00001,08125
+
+=== CAP STATUS SNAPSHOT (a) ===
+Field,Value,Raw
+Battery,3.66 V,42
+Charge,57%,
+Panel,4.02 V,
+Pressure,1.424 PSI,42
+Time,10:18:00,
+Mode,Mode 3 (target 3.0 PSI),3
+Day High,1.484 PSI,
+Day Low,0.000 PSI,
+Pump Fail Count,0,
+BLE Time Left,0m 10s,
+Solar Charging,n/a,
+
+=== HEAD PRESSURE TEST ===
+Field,Value
+Before (baseline),1.424 PSI (raw 42)
+After (pumping),1.649 PSI (raw 47)
+Head Pressure (delta),0.225 PSI
+
+=== FAILURE MODE ANALYSIS ===
+Field,Result,Detail
+Pumping,FAIL,0.225 PSI delta
+Pump Battery Fault,PASS,3.66 V (57% est.)
+Pump Run Time,FAIL,24.8 min/day avg over 7 day(s)
+Battery Log Fault,FAIL,6 low-battery inhibit event(s) in log
+Pressure Target (A2A -> Pump),PASS,3.01 PSI logged vs 3.00 PSI expected
+Same Mode,PASS,All caps match
+Correct Mode,PASS,Reads Mode 3; expected Mode 3
+Triage Category,other,
+Inconclusive,false,
+Inconclusive Reasons,Charging status unavailable,
