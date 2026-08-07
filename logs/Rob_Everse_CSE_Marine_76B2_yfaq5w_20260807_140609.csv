@@ -1,0 +1,50 @@
+CSE Marine Diagnostic Report
+Customer: Rob Everse
+Dealer: West MI Yacht Sales
+Expected Mode: Mode 3
+Submitted: 8/7/2026, 2:06:09 PM
+Cap: CSE_Marine_76B2
+
+=== EEPROM ACTIVITY LOG ===
+Firmware Version 3.2   Build 2026-07-07   Tag NS   ShipMode 3
+LogIndex,TargPress,DHPressure,AHPressure,DLPressure,ALPressure,BattVoltage,AirToAdd,HeadMaxPress,RefVoltage,PumpRunCount,ChrgeCycCount,PumpInhFlag,ActLenDayKnt
+00000,003.012,004.631,004.631,000.315,000.315,003.914,000.000,000.000,000.000,00000,00012,00000,08640
+00001,003.012,000.809,004.136,000.315,000.315,003.914,000.000,000.000,000.000,00000,00000,00000,06904
+00002,003.012,001.753,003.822,000.495,000.360,003.914,000.000,000.000,000.000,00000,00047,00000,10376
+00003,003.012,001.304,003.507,000.719,000.405,003.914,000.000,000.000,000.000,00000,00079,00000,07563
+00004,003.012,001.484,003.237,000.719,000.450,003.952,000.000,000.000,000.000,00000,00079,00000,06355
+00005,003.012,001.259,003.012,000.674,000.495,003.952,000.000,000.000,000.000,00000,00008,00000,10925
+00006,003.012,001.529,002.832,000.674,000.540,003.952,000.135,000.000,000.000,00000,00049,00000,07706
+
+=== CAP STATUS SNAPSHOT (a) ===
+Field,Value,Raw
+Battery,3.70 V,42
+Charge,63%,
+Panel,4.02 V,
+Pressure,1.424 PSI,42
+Time,09:34:50,
+Mode,Mode 3 (target 3.0 PSI),3
+Day High,1.484 PSI,
+Day Low,0.000 PSI,
+Pump Fail Count,0,
+BLE Time Left,0m 00s,
+Solar Charging,n/a,
+
+=== HEAD PRESSURE TEST ===
+Field,Value
+Before (baseline),1.424 PSI (raw 42)
+After (pumping),1.469 PSI (raw 43)
+Head Pressure (delta),0.045 PSI
+
+=== FAILURE MODE ANALYSIS ===
+Field,Result,Detail
+Pumping,FAIL,Zero head pressure detected (0.045 PSI delta)
+Pump Battery Fault,PASS,3.70 V (63% est.)
+Pump Run Time,PASS,0.0 min/day avg over 7 day(s)
+Battery Log Fault,PASS,0 low-battery inhibit event(s) in log
+Pressure Target (A2A -> Pump),PASS,3.01 PSI logged vs 3.00 PSI expected
+Same Mode,PASS,All caps match
+Correct Mode,PASS,Reads Mode 3; expected Mode 3
+Triage Category,other,
+Inconclusive,false,
+Inconclusive Reasons,Charging status unavailable,
