@@ -7,7 +7,7 @@ Cap: CSE_Marine_6B80
 
 === EEPROM ACTIVITY LOG ===
 Firmware Version 3.2   Build 2026-07-07   Tag NS   ShipMode 4
-LogIndex,TargPress,DHPressure,AHPressure,DLPressure,ALPressure,BattVoltage,AirToAdd,HeadMaxPress,RefVoltage,PumpRunCount,ChrgeCycCount,PumpInhFlag,ActLenDayKnt
+LogIndex,TargPress,DHPressure,AHPressure,DLPressure,ALPressure,BattVoltage,AirToAdd,HeadMaxPress,PumpFailCount,PumpRunCount,ChrgeCycCount,PumpInhFlag,ActLenDayKnt
 
 === CAP STATUS SNAPSHOT (a) ===
 Field,Value,Raw
