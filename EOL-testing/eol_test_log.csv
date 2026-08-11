@@ -1,2 +1,2 @@
 EOL Test Time,Cap Name,Board Test Time,Board Test Result,BLE Connect,OTA Performed,FW Before,FW Julian Before,FW After,FW Julian After,Result,Reason,Battery V,Panel Tested,Panel V,Pressure PSI,Mode
-2026-08-11T17:57:24.628Z,CSE_Marine_7002,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.70,Y,0.74,0.00,2
+2026-08-11T18:05:28.452Z,CSE_Marine_30F1,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.98,Y,1.10,0.00,1
