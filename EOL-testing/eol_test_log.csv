@@ -8,3 +8,4 @@ EOL Test Time,Cap Name,Board Test Time,Board Test Result,BLE Connect,OTA Perform
 2026-08-14T15:49:00.349Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
 2026-08-14T15:49:01.848Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
 2026-08-14T15:49:03.227Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
+2026-08-14T15:49:05.148Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
