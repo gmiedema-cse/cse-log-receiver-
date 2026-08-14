@@ -1,12 +1,2 @@
-EOL Test Time,Cap Name,Board Test Time,Board Test Result,BLE Connect,OTA Performed,FW Before,FW Julian Before,FW After,FW Julian After,Result,Reason,Battery V,Panel Tested,Panel V,Pressure PSI,Mode
-2026-08-14T15:48:04.932Z,CSE_Marine_578A,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.94,Y,0.62,-0.04,1
-2026-08-14T15:48:08.622Z,CSE_Marine_578A,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.94,Y,0.62,-0.04,1
-2026-08-14T15:48:23.850Z,CSE_Marine_25E7,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,panel voltage 0.18V (must be >= 0.50V),3.98,Y,0.18,0.00,1
-2026-08-14T15:48:32.506Z,CSE_Marine_25E7,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,panel voltage 0.18V (must be >= 0.50V),3.94,Y,0.18,0.00,1
-2026-08-14T15:48:48.033Z,CSE_Marine_7522,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.94,Y,0.82,0.00,1
-2026-08-14T15:48:55.699Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
-2026-08-14T15:49:00.349Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
-2026-08-14T15:49:01.848Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
-2026-08-14T15:49:03.227Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
-2026-08-14T15:49:05.148Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
-2026-08-14T15:49:10.908Z,CSE_Marine_A932,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,"panel voltage 0.46V (must be >= 0.50V), pressure sensor raw 97 (must be 4-28)",3.94,Y,0.46,3.91,1
+EOL Test Time,Cap Name,Board Test Time,Board Test Result,BLE Connect,OTA Performed,FW Before,FW Julian Before,FW After,FW Julian After,Result,Reason,Battery V,Panel Tested,Panel V,Mode
+2026-08-14T15:58:59.671Z,CSE_Marine_7002,2026-07-31T20:08:17.773Z,PASS,Connected,N,3.2,26188,3.2,26188,PASS,,3.70,Y,0.86,2
