@@ -34,6 +34,7 @@ Timestamp, Name, Dealer, BLE IDs, Software Version, Julian, Mode, Head Pressure 
 2026-07-31T17:03:22.605Z,Greg Miedema,"Coral Gables Yachts, LLC",CSE_Marine_8187,v3.2,26188,Mode 4 (3.5 PSI),0.180,warn,YES,YES,GMIEDEMA@CSE-PD.COM
 2026-07-31T17:10:17.046Z,Greg Miedema,"Coral Gables Yachts, LLC",CSE_Marine_8187,v3.2,26188,Mode 1 (2.0 PSI),0.180,warn,YES,YES,GMIEDEMA@CSE-PD.COM
 2026-08-06T15:55:26.750Z,Greg Miedema,CSE Testing,CSE_Marine_8187,v3.2,26188,Mode 4 (3.5 PSI),0.225,warn,YES,YES,gmiedema@cse-pd.com
-2026-08-06T23:42:41.923Z,Troy Boouman,"Coral Gables Yachts, Inc. Ã¢ÂÂ Holland, MI",CSE_Marine_D727,v3.2,26188,Mode 1 (2.0 PSI),-0.045,fail,,,tmbouman@mtu.edu
-2026-08-06T23:42:46.117Z,Troy Boouman,"Coral Gables Yachts, Inc. â Holland, MI",CSE_Marine_D727,v3.2,26188,Mode 1 (2.0 PSI),-0.090,fail,YES,,tmbouman@mtu.edu
+2026-08-06T23:42:41.923Z,Troy Boouman,"Coral Gables Yachts, Inc. ÃÂ¢ÃÂÃÂ Holland, MI",CSE_Marine_D727,v3.2,26188,Mode 1 (2.0 PSI),-0.045,fail,,,tmbouman@mtu.edu
+2026-08-06T23:42:46.117Z,Troy Boouman,"Coral Gables Yachts, Inc. Ã¢ÂÂ Holland, MI",CSE_Marine_D727,v3.2,26188,Mode 1 (2.0 PSI),-0.090,fail,YES,,tmbouman@mtu.edu
 2026-08-14T18:32:49.062Z,Greg Miedema,CSE Testing,CSE_Marine_8187,v3.2,26188,Mode 4 (3.5 PSI),0.315,pass,YES,YES,gmiedema@cse-pd.com
+2026-08-26T15:01:29.218Z,Greg Miedema,CSE Testing,CSE_Marine_8187,v3.2,26188,Mode 1 (2.0 PSI),0.180,warn,YES,YES,gmiedema@cse-pd.com
