@@ -1,0 +1,45 @@
+CSE Marine Diagnostic Report
+Customer: Troy Bouman
+Dealer: Coral Gables Yachts, Inc. – Holland, MI
+Expected Mode: Mode 1
+Submitted: 9/1/2026, 3:05:11 PM
+Cap: CSE_Marine_D727
+
+=== EEPROM ACTIVITY LOG ===
+Firmware Version 3.2   Build 2026-07-07   Tag NS   ShipMode 1
+LogIndex,TargPress,DHPressure,AHPressure,DLPressure,ALPressure,BattVoltage,AirToAdd,HeadMaxPress,PumpFailKnt,PumpRunCount,ChrgeCycCount,PumpInhFlag,ActLenDayKnt
+00000,001.978,001.619,001.619,000.989,000.989,003.449,000.270,000.000,00000,00000,00001,00000,08640
+00001,001.978,001.214,001.574,000.854,000.989,003.449,000.000,001.259,00001,00001,00000,00001,01917
+00002,001.978,001.394,001.574,000.719,000.944,003.449,000.315,001.079,00000,00001,00000,00001,07905
+00003,001.978,001.349,001.529,000.719,000.899,003.449,000.360,000.989,00000,00001,00000,00001,12536
+
+=== CAP STATUS SNAPSHOT (a) ===
+Field,Value,Raw
+Battery,3.46 V,28
+Charge,32%,
+Panel,3.82 V,
+Pressure,0.795 PSI,28
+Time,08:13:30,
+Mode,Mode 1 (target 2.0 PSI),1
+Day High,1.843 PSI,
+Day Low,0.000 PSI,
+Pump Fail Count,0,
+BLE Time Left,0m 10s,
+Solar Charging,n/a,
+
+=== HEAD PRESSURE TEST ===
+Field,Value
+Before (baseline),0.795 PSI (raw 28)
+After (pumping),1.334 PSI (raw 40)
+Head Pressure (delta),0.540 PSI
+
+=== FAILURE MODE ANALYSIS ===
+Field,Result,Detail
+Pumping,PASS,0.540 PSI delta
+Pump Run Time,PASS,0.4 min/day avg over 4 day(s)
+Battery Log Fault,FAIL,3 low-battery inhibit event(s) in log
+Same Mode,PASS,All caps match
+Correct Mode,PASS,Reads Mode 1; expected Mode 1
+Triage Category,charging,
+Battery Warning,none,
+Data Gaps,Charging status unavailable,
