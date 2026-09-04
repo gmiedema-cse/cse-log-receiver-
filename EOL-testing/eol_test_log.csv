@@ -1,2 +1,4 @@
 EOL Test Time,Cap Name,Board Test Time,Board Test Result,BLE Connect,OTA Performed,FW Before,FW Julian Before,FW After,FW Julian After,Result,Reason,Battery V,Panel Tested,Panel V,Mode
 2026-09-04T18:09:51.148Z,CSE_Marine_021F,2026-08-30T14:11:28.836Z,PASS,Connected,N,3.2,26188,3.2,26188,PASS,,3.94,Y,1.22,1
+2026-09-04T18:11:46.523Z,CSE_Marine_5F3C,2026-08-30T13:23:46.953Z,PASS,Connected,N,3.2,26188,3.2,26188,PASS,,3.86,Y,1.38,1
+2026-09-04T18:13:18.159Z,CSE_Marine_B99D,2026-08-30T13:38:42.895Z,PASS,Connected,N,3.2,26188,3.2,26188,PASS,,3.94,Y,1.90,1
