@@ -58,3 +58,4 @@ EOL Test Time,Cap Name,Board Test Time,Board Test Result,BLE Connect,OTA Perform
 2026-09-17T20:01:14.577Z,CSE_Marine_AE23,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.94,Y,0.78,1
 2026-09-17T20:03:23.828Z,CSE_Marine_EE60,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.90,Y,0.70,1
 2026-09-17T20:04:34.455Z,CSE_Marine_222E,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.94,Y,1.34,1
+2026-09-17T20:05:43.050Z,CSE_Marine_875A,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.98,Y,1.02,1
