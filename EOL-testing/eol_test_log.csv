@@ -71,3 +71,4 @@ EOL Test Time,Cap Name,Board Test Time,Board Test Result,BLE Connect,OTA Perform
 2026-09-17T20:33:12.462Z,CSE_Marine_C9D3,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.90,Y,1.34,1
 2026-09-17T20:34:18.913Z,CSE_Marine_DF4C,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.90,Y,0.66,1
 2026-09-17T20:35:33.868Z,CSE_Marine_DD8B,not found in board log,,Connected,N,3.2,26188,3.2,26188,PASS,,3.90,Y,0.86,1
+2026-09-17T20:36:38.350Z,CSE_Marine_ED74,not found in board log,,Connected,N,3.2,26188,3.2,26188,FAIL,panel voltage 0.26V (must be >= 0.50V),3.90,Y,0.26,1
